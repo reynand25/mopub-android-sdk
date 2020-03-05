@@ -74,7 +74,7 @@ public class NativeManualFragment extends Fragment {
         String adUnitId = null;
 
         if (mAdConfiguration != null) {
-            adUnitId = mAdConfiguration.getAdUnitId();
+            adUnitId = "f0ecc51ceb3642a49e7961cd7c303221";//mAdConfiguration.getAdUnitId();
         }
 
         viewHolder.mDescriptionView.setText(mAdConfiguration.getDescription());
